@@ -26,21 +26,21 @@
             string favoriteSubject = Console.ReadLine();
             Console.WriteLine("--------------------------------------------");
 
-            switch (favoriteSubject)
+            switch (favoriteSubject. ToLower())
             {
-                case "Math":
+                case "math":
                     Console.WriteLine("Math is awesome, Lets count this money!!!");
                     break;
-                case "Biology":
+                case "biology":
                     Console.WriteLine("Biology is very intresting, I like being able to disect an animal and see how everything works.");
                     break;
-                case "History":
+                case "history":
                     Console.WriteLine("History sucks, most of what i learned was lies or contradictions.");
                     break;
-                case "English":
+                case "english":
                     Console.WriteLine("English is fun when your writing stories");
                     break;
-                case "P.E":
+                case "p.e":
                     Console.WriteLine("P.E is the best if you love to be active");
                     break;
                 default:
